@@ -19,7 +19,7 @@ function About() {
             mb: 4,
           }}
           alt="Carlos Herrera"
-          src="/profile-photo.jpg"
+          src="./public/profile-photo.jpg"
         />
         <Typography variant="h3" component="h1" gutterBottom>
           About Me
