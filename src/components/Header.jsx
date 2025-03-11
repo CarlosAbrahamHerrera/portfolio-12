@@ -12,7 +12,8 @@ function Header() {
               flexGrow: 1, 
               display: 'flex', 
               alignItems: 'center', 
-              fontWeight: 'bold' 
+              fontWeight: 'bold',
+              color: '#FFFFFF'
             }}
           >
             Carlos Herrera

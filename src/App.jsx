@@ -12,24 +12,29 @@ const theme = createTheme({
   palette: {
     mode: 'light',
     primary: {
-      main: '#2e7d32', // Green color - represents growth and professionalism
-      light: '#60ad5e',
-      dark: '#005005',
+      main: '#05204A', // Oxford Blue - primary color for headers and main elements
+      light: '#384d6d',
+      dark: '#020e33',
       contrastText: '#ffffff',
     },
     secondary: {
-      main: '#546e7a', // Blue-grey - complementary color for balance
-      light: '#819ca9',
-      dark: '#29434e',
-      contrastText: '#ffffff',
+      main: '#B497D6', // Wisteria - accent color for buttons and highlights
+      light: '#c5b1e0',
+      dark: '#8c71b0',
+      contrastText: '#000000',
     },
     background: {
-      default: '#f5f5f5',
+      default: '#E1E2EF', // Lavender web - background color
       paper: '#ffffff',
     },
     text: {
-      primary: '#212121',
-      secondary: '#546e7a',
+      primary: '#02020A', // Black - primary text color
+      secondary: '#05204A', // Oxford Blue - secondary text
+    },
+    neutral: {
+      main: '#BFACAA', // Silver - neutral elements, borders, etc.
+      light: '#d3c8c7',
+      dark: '#a08f8d',
     },
   },
   typography: {
@@ -40,9 +45,13 @@ const theme = createTheme({
     h3: {
       fontWeight: 500,
       marginBottom: '1rem',
+      color: '#05204A', // Oxford Blue for headers
     },
     h5: {
       fontWeight: 400,
+    },
+    h6: {
+      color: '#05204A', // Oxford Blue for subheadings
     },
     button: {
       textTransform: 'none',
@@ -50,10 +59,23 @@ const theme = createTheme({
     },
   },
   components: {
+    MuiAppBar: {
+      styleOverrides: {
+        root: {
+          backgroundColor: '#05204A', // Oxford Blue for AppBar
+        },
+      },
+    },
     MuiButton: {
       styleOverrides: {
         root: {
           borderRadius: 8,
+        },
+        contained: {
+          backgroundColor: '#B497D6', // Wisteria color for buttons
+          '&:hover': {
+            backgroundColor: '#8c71b0', // Darker wisteria on hover
+          },
         },
       },
     },
@@ -62,6 +84,7 @@ const theme = createTheme({
         root: {
           borderRadius: 12,
           boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+          borderTop: '3px solid #B497D6', // Wisteria accent on cards
         },
       },
     },
@@ -69,6 +92,33 @@ const theme = createTheme({
       styleOverrides: {
         rounded: {
           borderRadius: 12,
+        },
+        elevation3: {
+          boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
+          borderLeft: '3px solid #BFACAA', // Silver accent on papers
+        },
+      },
+    },
+    MuiDivider: {
+      styleOverrides: {
+        root: {
+          backgroundColor: '#BFACAA', // Silver for dividers
+        },
+      },
+    },
+    MuiTabs: {
+      styleOverrides: {
+        indicator: {
+          backgroundColor: '#B497D6', // Wisteria for tab indicator
+        },
+      },
+    },
+    MuiTab: {
+      styleOverrides: {
+        root: {
+          '&.Mui-selected': {
+            color: '#B497D6', // Wisteria for selected tab
+          },
         },
       },
     },
