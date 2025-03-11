@@ -40,7 +40,7 @@ function Portfolio() {
       description: 'A TypeScript application that allows users to create and customize virtual vehicles with various specifications and options.',
       image: '/project5.jpg',
       githubLink: 'https://github.com/CarlosAbrahamHerrera/veichle-builder',
-      liveLink: 'https://carlosherrera.netlify.app',
+      liveLink: ' ',
       technologies: ['TypeScript', 'Object-Oriented Programming', 'Design Patterns'],
     },
     {
