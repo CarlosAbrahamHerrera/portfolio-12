@@ -37,7 +37,7 @@ function Resume() {
       ],
     },
     {
-      title: 'Customer Success Manager (Intern)',
+      title: 'Associate Consultant (Employer Partner Services, Intern)',
       company: 'Guild Education',
       location: 'Remote',
       period: 'December 2023 - April 2024',
@@ -160,7 +160,7 @@ function Resume() {
             PROFESSIONAL SUMMARY
           </Typography>
           <Typography variant="body1" paragraph>
-            Customer-focused support specialist with over 7 years of experience in delivering exceptional service and enhancing customer
+            Customer-focused support specialist with over 9 years of experience in delivering exceptional service and enhancing customer
             satisfaction across various industries. I've managed over 60 daily interactions, consistently achieving high satisfaction scores and
             streamlining processes that led to a 20% reduction in resolution times. My collaborative efforts in developing internal documentation
             and leveraging customer insights have significantly improved self-service rates and platform reliability.
