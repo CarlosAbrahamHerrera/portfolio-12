@@ -17,7 +17,7 @@ function Resume() {
   const education = [
     {
       institution: 'Michigan State University',
-      credential: 'Bootcamp, Computer Science',
+      credential: 'Bootcamp, Full Stack Web Development',
       period: 'December 2024 - June 2025',
       details: ['GPA: 4'],
     }
