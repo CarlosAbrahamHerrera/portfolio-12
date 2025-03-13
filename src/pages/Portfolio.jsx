@@ -8,7 +8,7 @@ function Portfolio() {
       description: 'A TypeScript application for managing employee data, enabling organizations to track and organize their workforce information efficiently.',
       image: '/project1.jpg',
       githubLink: 'https://github.com/CarlosAbrahamHerrera/employee-tracker',
-      liveLink: 'https://carlosherrera.netlify.app',
+      liveLink: 'https://github.com/CarlosAbrahamHerrera/employee-tracker',
       technologies: ['TypeScript', 'Node.js', 'SQL', 'Command-line Interface'],
     },
     {
@@ -40,7 +40,7 @@ function Portfolio() {
       description: 'A TypeScript application that allows users to create and customize virtual vehicles with various specifications and options.',
       image: '/project5.jpg',
       githubLink: 'https://github.com/CarlosAbrahamHerrera/veichle-builder',
-      liveLink: ' ',
+      liveLink: 'https://github.com/CarlosAbrahamHerrera/veichle-builder',
       technologies: ['TypeScript', 'Object-Oriented Programming', 'Design Patterns'],
     },
     {
