@@ -20,12 +20,6 @@ This portfolio is a single-page application built with React that highlights my 
 - **Responsive Design** - Mobile-first approach that works on all devices
 - **Elegant UI/UX** - Custom color scheme with Oxford Blue, Wisteria, Silver, and Lavender
 
-## 🛠️ Technologies Used
-
-- **Frontend:** React, React Router, Material-UI
-- **Build Tool:** Vite
-- **Languages:** JavaScript, HTML5, CSS3
-- **Deployment:** Netlify
 
 ## 🎨 Color Palette
 
@@ -66,8 +60,8 @@ npm run build
 
 ## 🚀 Deployment
 
-This project is deployed on Netlify. To deploy your own version:
-
+This project is deployed on Netlify. 
+https://carlosherrera.netlify.app/portfolio
 
 ## 📝 License
 
