@@ -21,6 +21,13 @@ This portfolio is a single-page application built with React that highlights my 
 - **Elegant UI/UX** - Custom color scheme with Oxford Blue, Wisteria, Silver, and Lavender
 
 
+## 🛠️ Technologies Used
+
+- **Frontend:** React, React Router, Material-UI
+- **Build Tool:** Vite
+- **Languages:** JavaScript, HTML5, CSS3
+- **Deployment:** Netlify
+
 ## 🎨 Color Palette
 
 The portfolio uses a custom color palette that provides a professional and distinctive appearance:
@@ -37,7 +44,7 @@ To run this project locally:
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/portfolio-12.git
+   git clone https://github.com/CarlosAbrahamHerrera/portfolio-12.git
    cd portfolio-12
    ```
 
@@ -60,8 +67,12 @@ npm run build
 
 ## 🚀 Deployment
 
-This project is deployed on Netlify. 
-https://carlosherrera.netlify.app/portfolio
+This project is deployed on Netlify. To deploy your own version:
+
+1. Build the project
+2. Create a Netlify account
+3. Either connect your GitHub repository or upload the build folder manually
+4. Configure your deployment settings
 
 ## 📝 License
 
@@ -73,3 +84,35 @@ Have questions or want to connect? Reach out to me at:
 - Email: officialcarlosdiaz@gmail.com
 - LinkedIn: [carlos-abraham-herrera](https://linkedin.com/in/carlos-abraham-herrera)
 - GitHub: [carlosherrera](https://github.com/carlosherrera)
+
+## 📂 Projects
+
+### 1. Employee Tracker
+- **Description:** A TypeScript application for managing employee data.
+- **GitHub:** [Employee Tracker](https://github.com/CarlosAbrahamHerrera/employee-tracker)
+- **Live Demo:** [Live Demo](https://carlosherrera.netlify.app)
+
+### 2. Horiseon Code Refactor
+- **Description:** A web accessibility project focusing on refactoring existing code to meet accessibility standards and improve SEO performance.
+- **GitHub:** [Horiseon Code Refactor](https://github.com/CarlosAbrahamHerrera/horiseon-code-refactor)
+- **Live Demo:** [Live Demo](https://carlosabrahamherrera.github.io/horiseon-code-refactor/)
+
+### 3. README Generator
+- **Description:** A command-line application that dynamically generates professional README.md files for projects based on user input.
+- **GitHub:** [README Generator](https://github.com/CarlosAbrahamHerrera/read-me-generator)
+- **Live Demo:** [Live Demo](https://github.com/CarlosAbrahamHerrera/read-me-generator)
+
+### 4. Rock Paper Scissors Game
+- **Description:** An interactive browser-based implementation of the classic Rock, Paper, Scissors game with a modern UI.
+- **GitHub:** [Rock Paper Scissors Game](https://github.com/CarlosAbrahamHerrera/rock-paper-scissors-game)
+- **Live Demo:** [Live Demo](https://carlosabrahamherrera.github.io/rock-paper-scissors-game/)
+
+### 5. Vehicle Builder
+- **Description:** A TypeScript application that allows users to create and customize virtual vehicles with various specifications and options.
+- **GitHub:** [Vehicle Builder](https://github.com/CarlosAbrahamHerrera/veichle-builder)
+- **Live Demo:** [Live Demo](https://carlosherrera.netlify.app)
+
+### 6. Travel Bible
+- **Description:** A collaborative project providing comprehensive information about select travel destinations, including attractions, local tips, and travel guides.
+- **GitHub:** [Travel Bible](https://github.com/bmostowski1996/travel-bible)
+- **Live Demo:** [Live Demo](https://bmostowski1996.github.io/travel-bible/)

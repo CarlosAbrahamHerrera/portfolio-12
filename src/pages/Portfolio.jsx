@@ -4,12 +4,12 @@ import Project from '../components/Project';
 function Portfolio() {
   const projects = [
     {
-      title: 'Employee Tracker',
-      description: 'A TypeScript application for managing employee data, enabling organizations to track and organize their workforce information efficiently.',
-      image: '/project1.jpg',
+      title: 'Candidate Search',
+      description: 'A React-TypeScript application that simulates a hiring app interface for GitHub users. Features include profile swiping, candidate saving with localStorage persistence, sorting by multiple criteria, and filtering capabilities. Implements a modern UI with glassmorphism effects and gradient backgrounds.',
+      image: '/project1.png',
       githubLink: 'https://github.com/CarlosAbrahamHerrera/employee-tracker',
-      liveLink: 'https://github.com/CarlosAbrahamHerrera/employee-tracker',
-      technologies: ['TypeScript', 'Node.js', 'SQL', 'Command-line Interface'],
+      liveLink: 'https://candidate-search-ns6v.onrender.com/potential-candidates',
+      technologies: ['React', 'TypeScript', 'GitHub API', 'Vite', 'CSS3', 'localStorage'],
     },
     {
       title: 'Horiseon Code Refactor',
